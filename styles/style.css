@@ -31,4 +31,13 @@ main {
         width: 19.438rem;
         background-image: url("../images/frame-iphone.png");
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+        #screen {
+            width: 16.5rem;
+            height: 29.2rem;
+            margin-top: 0.3rem;
+        }
