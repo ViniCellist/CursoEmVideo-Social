@@ -20,10 +20,11 @@ body {
 }
 
 main {
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
     #cellphone {
@@ -41,3 +42,24 @@ main {
             height: 29.2rem;
             margin-top: 0.3rem;
         }
+
+    #social {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #social img {
+        width: 3.125rem;
+        margin: 0.625rem;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        box-sizing: border-box;
+    }
+
+    #social img:hover {
+        border: 2px solid white;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px black;
+        transition: transform 0.3s;
+    }
